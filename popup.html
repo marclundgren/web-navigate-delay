@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Add your custom styles here */
+    </style>
+  </head>
+  <body>
+    <form id="url-opener-form">
+      <input type="text" id="url" placeholder="Enter URL" />
+      <input type="number" id="minutes" placeholder="Enter minutes" />
+      <input type="number" id="seconds" placeholder="Enter seconds" />
+      <button id="start" type="submit">Start</button>
+      <button id="cancel" type="button" disabled>Cancel</button>
+    </form>
+    <div>
+      <p>Time left: <span id="countdown">--:--</span></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

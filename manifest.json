@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Time Redirect",
+  "version": "1.0",
+  "description": "Waits for specified time and then redirects to provided URL.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "permissions": ["tabs", "alarms"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
